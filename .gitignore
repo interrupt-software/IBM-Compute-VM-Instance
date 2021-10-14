@@ -1,0 +1,24 @@
+# IBM API Keys used for testing
+apikey.json
+
+# Private key created during testing
+private.key
+
+# Terraform state files #
+#########################
+*.tfstate
+*.tfstate.backup
+
+# Terraform provider files #
+###########################
+.terraform
+.terraform.lock.hcl
+
+# Anything with SSH #
+#####################
+.ssh
+
+# MacOS generated files #
+#########################
+.DS_Store
+.DS_Store?
